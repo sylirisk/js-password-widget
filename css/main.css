@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 12pt;
+    color: #555555;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pwd-widget {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pwd-prompt {
+    margin: 0px 10px;
+}
+
+input[type="password"] {
+    height: 2rem;
+    width: 15rem;
+    padding-left: 10px;
+    border: solid 1px #555555;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#pwd-img {
+    margin: 0px 5px;
+    padding: 0px;
+    color: #555555;
+}
+
+div[id|="password-info-tab"] {
+    display: flex;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    height: 2rem;
+    width: 15rem;
+    margin: 0px 10px 0px 0px;
+}
+
+#password-info-tab-0 {
+    border: solid 1px #BBBBBB;
+    background-color: #DDDDDD;
+    color: #555555;
+}
+
+#password-info-tab-1 {
+    border: solid 1px #E2CFC9;
+    background-color: #FBE2CE;
+    color: #774723;
+}
+
+#password-info-tab-2 {
+    border: solid 1px #E4D6B3;
+    background-color: #FDF0CE;
+    color: #846B43;
+}
+
+#password-info-tab-3 {
+    border: solid 1px #E0E6B6;
+    background-color: #F4FBCF;
+    color: #758556;
+}
+
+#password-info-tab-4 {
+    border: solid 1px #E4EFDF;
+    background-color: #F0FDE9;
+    color: #467C2D;
+}
+
+#pwd-tooltip {
+    font-size: smaller;
+}
